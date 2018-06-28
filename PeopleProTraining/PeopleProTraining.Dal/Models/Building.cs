@@ -12,9 +12,11 @@ namespace PeopleProTraining.Dal.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Employee
+    public partial class Building
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
+        public int BuildingId { get; set; }
+        public string Department { get; set; }
+        public string Occupancy { get; set; }
+        public string Value { get; set; }
     }
 }

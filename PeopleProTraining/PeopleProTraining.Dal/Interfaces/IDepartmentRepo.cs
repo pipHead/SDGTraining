@@ -12,11 +12,11 @@ namespace PeopleProTraining.Dal.Interfaces
         #region access
 
         #region departments
-        IQueryable<Department> GetDepartments();
-        IEnumerable<Department> GetDepartments(Func<Department, bool> predicate);
+        IQueryable<Department2> GetDepartments();
+        IEnumerable<Department2> GetDepartments(Func<Department2, bool> predicate);
 
-        Department GetDepartment(Func<Department, bool> predicate);
-        Department GetDepartment(int id);
+        Department2 GetDepartment(Func<Department2, bool> predicate);
+        Department2 GetDepartment(int id);
         #endregion
         #endregion
     }

@@ -13,6 +13,6 @@ namespace PeopleProTraining.Dal.Infrastructure
     class BusinessContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
-        public DbSet<Department> Departments { get; set; }
+        public DbSet<Department2> Departments { get; set; }
     }
 }

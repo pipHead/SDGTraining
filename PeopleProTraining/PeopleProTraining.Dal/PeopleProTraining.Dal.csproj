@@ -76,8 +76,49 @@
       <DependentUpon>201806272122128_test.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Department.cs" />
-    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Building.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Building.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Building.cs">
+      <DependentUpon>Building.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Building.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Building.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Building1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Building.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\C__MigrationHistory.cs">
+      <DependentUpon>Building.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Department.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Department.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Department.cs">
+      <DependentUpon>Building.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Department.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Department.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Department1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Department.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Department2.cs" />
+    <Compile Include="Models\Employee.cs">
+      <DependentUpon>Building.tt</DependentUpon>
+    </Compile>
     <Compile Include="PeopleProModels.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -97,6 +138,26 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Models\Building.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Building.edmx</DependentUpon>
+      <LastGenOutput>Building.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Building.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Building.edmx</DependentUpon>
+      <LastGenOutput>Building1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Department.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Department.edmx</DependentUpon>
+      <LastGenOutput>Department.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Department.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Department.edmx</DependentUpon>
+      <LastGenOutput>Department1.cs</LastGenOutput>
+    </Content>
     <Content Include="PeopleProModels.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>PeopleProModels.Context.cs</LastGenOutput>
@@ -120,6 +181,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+    <EntityDeploy Include="Models\Department.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Department.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="Models\Building.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Building.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\Building.edmx.diagram">
+      <DependentUpon>Building.edmx</DependentUpon>
+    </None>
+    <None Include="Models\Department.edmx.diagram">
+      <DependentUpon>Department.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="PeopleProModels.edmx.diagram">
       <DependentUpon>PeopleProModels.edmx</DependentUpon>

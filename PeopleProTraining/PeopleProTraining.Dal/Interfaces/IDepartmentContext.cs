@@ -12,7 +12,7 @@ namespace PeopleProTraining.Dal.Interfaces
 {
     public interface IDepartmentContext : IDisposable
     {
-        IDbSet<Department> Departments { get; set; }
+        IDbSet<Department2> Departments { get; set; }
         int SaveChanges();
         DbEntityEntry Entry(object entity);
     }

@@ -24,20 +24,20 @@ namespace PeopleProTraining.Dal.Infrastructure
         #region access
 
         #region departments
-        public IQueryable<Department> GetDepartments()
+        public IQueryable<Department2> GetDepartments()
         {
             return p_context.Departments;
         }
-        public IEnumerable<Department> GetDepartments(Func<Department, bool> predicate)
+        public IEnumerable<Department2> GetDepartments(Func<Department2, bool> predicate)
         {
             return p_context.Departments.Where(predicate);
         }
 
-        public Department GetDepartment(Func<Department, bool> predicate)
+        public Department2 GetDepartment(Func<Department2, bool> predicate)
         {
             return GetDepartments().SingleOrDefault(predicate);
         }
-        public Department GetDepartment(int id)
+        public Department2 GetDepartment(int id)
         {
             return GetDepartment(t => t.DepartementID == id);
         }
