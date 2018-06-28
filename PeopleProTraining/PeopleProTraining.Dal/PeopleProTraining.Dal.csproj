@@ -58,10 +58,21 @@
     <Compile Include="Extensions\CacheItemBase.cs" />
     <Compile Include="Extensions\CacheManager.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Infrastructure\DepartmentContext.cs" />
     <Compile Include="Infrastructure\PeopleProContext.cs" />
     <Compile Include="Infrastructure\PeopleProRepo.cs" />
     <Compile Include="Interfaces\IPeopleProContext.cs" />
     <Compile Include="Interfaces\IPeopleProRepo.cs" />
+    <Compile Include="Migrations\201806270042083_InitialCreate.cs" />
+    <Compile Include="Migrations\201806270042083_InitialCreate.Designer.cs">
+      <DependentUpon>201806270042083_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806272122128_test.cs" />
+    <Compile Include="Migrations\201806272122128_test.Designer.cs">
+      <DependentUpon>201806272122128_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="PeopleProModels.Context.cs">
       <AutoGen>True</AutoGen>
@@ -113,6 +124,14 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201806270042083_InitialCreate.resx">
+      <DependentUpon>201806270042083_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806272122128_test.resx">
+      <DependentUpon>201806272122128_test.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

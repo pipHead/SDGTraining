@@ -1,0 +1,12 @@
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\bin\Debug\PeopleProTraining.Core.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\bin\Debug\PeopleProTraining.Core.pdb
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\bin\Debug\PeopleProTraining.Dal.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\bin\Debug\EntityFramework.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\bin\Debug\PeopleProTraining.Dal.pdb
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\bin\Debug\PeopleProTraining.Dal.dll.config
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\bin\Debug\EntityFramework.xml
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\obj\Debug\PeopleProTraining.Core.csprojResolveAssemblyReference.cache
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\obj\Debug\PeopleProTraining.Core.csproj.CoreCompileInputs.cache
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\obj\Debug\PeopleProTraining.Core.csproj.CopyComplete
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\obj\Debug\PeopleProTraining.Core.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Core\obj\Debug\PeopleProTraining.Core.pdb

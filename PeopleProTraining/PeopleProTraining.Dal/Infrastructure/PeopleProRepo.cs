@@ -47,7 +47,6 @@ namespace PeopleProTraining.Dal.Infrastructure
         #endregion
 
 
-
         /// <summary>
         /// Abstracts the saving process for an item in the Db Context.
         /// </summary>

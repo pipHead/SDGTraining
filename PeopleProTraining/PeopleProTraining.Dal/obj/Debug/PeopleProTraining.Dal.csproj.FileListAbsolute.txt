@@ -1,0 +1,15 @@
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\PeopleProTraining.Dal.dll.config
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\PeopleProTraining.Dal.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\PeopleProTraining.Dal.pdb
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.xml
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csprojResolveAssemblyReference.cache
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csproj.CoreCompileInputs.cache
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csproj.CopyComplete
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.dll
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.pdb
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.Migrations.InitialCreate.resources
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csproj.GenerateResource.cache
+C:\Users\beresfob\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.Migrations.test.resources

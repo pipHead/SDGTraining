@@ -14,7 +14,6 @@ namespace PeopleProTraining.Controllers
     public class EmployeesController : Controller
     {
         private PeopleProContext db = new PeopleProContext();
-
         // GET: Employees
         public ActionResult Index()
         {
