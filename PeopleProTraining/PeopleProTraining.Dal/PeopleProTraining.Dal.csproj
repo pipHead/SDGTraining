@@ -58,9 +58,13 @@
     <Compile Include="Extensions\CacheItemBase.cs" />
     <Compile Include="Extensions\CacheManager.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Infrastructure\BusinessContext.cs" />
     <Compile Include="Infrastructure\DepartmentContext.cs" />
+    <Compile Include="Infrastructure\DepartmentRepo.cs" />
     <Compile Include="Infrastructure\PeopleProContext.cs" />
     <Compile Include="Infrastructure\PeopleProRepo.cs" />
+    <Compile Include="Interfaces\IDepartmentContext.cs" />
+    <Compile Include="Interfaces\IDepartmentRepo.cs" />
     <Compile Include="Interfaces\IPeopleProContext.cs" />
     <Compile Include="Interfaces\IPeopleProRepo.cs" />
     <Compile Include="Migrations\201806270042083_InitialCreate.cs" />

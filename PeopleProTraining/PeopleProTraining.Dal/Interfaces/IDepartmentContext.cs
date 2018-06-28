@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace PeopleProTraining.Dal.Interfaces
 {
-    public interface IPeopleProContext : IDisposable
+    class interface IDepartmentContext : IDisposable
     {
-        IDbSet<Employee> Employees { get; set; }
+        IDbSet<Department> Departments { get; set; }
         int SaveChanges();
         DbEntityEntry Entry(object entity);
     }

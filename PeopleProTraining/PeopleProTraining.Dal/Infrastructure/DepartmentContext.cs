@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PeopleProTraining.Dal.Infrastructure
 {
-    class DepartmentContext : DbContext
+    class DepartmentContext : DbContext, IDepartmentContext
     {
         public DepartmentContext() : base("name=PeopleProTrainingDB")
         {
