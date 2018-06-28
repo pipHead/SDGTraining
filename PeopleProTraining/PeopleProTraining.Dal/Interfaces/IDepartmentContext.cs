@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PeopleProTraining.Dal.Interfaces
 {
-    class interface IDepartmentContext : IDisposable
+    public interface IDepartmentContext : IDisposable
     {
         IDbSet<Department> Departments { get; set; }
         int SaveChanges();

@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace PeopleProTraining.Dal.Interfaces
 {
-    class interface IDepartmentRepo 
+    public interface IDepartmentRepo 
     {
         #region access
 
         #region departments
         IQueryable<Department> GetDepartments();
-        IEnumerable<Employee> GetDepartments(Func<Employee, bool> predicate);
+        IEnumerable<Department> GetDepartments(Func<Department, bool> predicate);
 
         Department GetDepartment(Func<Department, bool> predicate);
         Department GetDepartment(int id);

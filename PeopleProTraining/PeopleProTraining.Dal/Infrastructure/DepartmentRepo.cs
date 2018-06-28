@@ -11,7 +11,7 @@ namespace PeopleProTraining.Dal.Infrastructure
 {
     public sealed class DepartmentRepo : IDepartmentRepo
     {
-        private IPeopleProContext p_context;
+        private IDepartmentContext p_context;
         private bool p_disposed;
 
         public DepartmentRepo() : this(new DepartmentContext()) { }
@@ -23,23 +23,23 @@ namespace PeopleProTraining.Dal.Infrastructure
 
         #region access
 
-        #region employees
-        public IQueryable<Employee> GetEmployees()
+        #region departments
+        public IQueryable<Department> GetDepartments()
         {
-            return p_context.Employees;
+            return p_context.Departments;
         }
-        public IEnumerable<Employee> GetEmployees(Func<Employee, bool> predicate)
+        public IEnumerable<Department> GetDepartments(Func<Department, bool> predicate)
         {
-            return p_context.Employees.Where(predicate);
+            return p_context.Departments.Where(predicate);
         }
 
-        public Employee GetEmployee(Func<Employee, bool> predicate)
+        public Department GetDepartment(Func<Department, bool> predicate)
         {
-            return GetEmployees().SingleOrDefault(predicate);
+            return GetDepartments().SingleOrDefault(predicate);
         }
-        public Employee GetEmployee(int id)
+        public Department GetDepartment(int id)
         {
-            return GetEmployee(t => t.Id == id);
+            return GetDepartment(t => t.DepartementID == id);
         }
 
         #endregion

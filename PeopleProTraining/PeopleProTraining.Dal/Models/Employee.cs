@@ -23,10 +23,10 @@ namespace PeopleProTraining.Dal.Models
 //PeopleProTrainingDB
 
 
-    public class PeopleProTrainingDB : DbContext
-    {
-        public DbSet<Employee> Employees { get; set; }
-    }
+    //public class peopleprotrainingdb : dbcontext
+    //{
+    //    public dbset<employee> employees { get; set; }
+    //}
 
 
 }
